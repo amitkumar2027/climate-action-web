@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Action</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <script src="./nav.js" type="module"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,800;1,600;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+        <div class="container nav-container">
+          <a href="/" class="logo-link" aria-label="Go to homepage">
+            <svg viewBox="0 0 229 161" class="logo" width="120" xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+              <path
+                d="M29.17 82.421c4.003-34.962 33.732-62.157 69.763-62.157 21.047 0 39.944 9.279 52.817 23.964l-.039.022c.343.361.641.685.94 1.027.443.525.877 1.056 1.303 1.592h.008c.265.337.561.717.902 1.16.408.53.788 1.043 1.142 1.536l-.014.001a69.403 69.403 0 0 1 1.953 2.864c.405.634.747 1.192 1.033 1.657l.004-.003a69.94 69.94 0 0 1 6.483 13.895c8.313-5.572 12.656-10.495 11.55-13.947-1.139-3.553-7.885-5.018-18.404-4.604a31.955 31.955 0 0 0-.858-1.576 9.527 9.527 0 0 0-.685-1.029c20.568-.077 34.892 4.541 37.857 13.791 3.148 9.824-7.166 22.842-25.986 35.427-2.834 36.162-33.117 64.668-70.006 64.668-11.228 0-21.844-2.641-31.258-7.334 5.145-13.664 21.098-10.431 67.983-34.016 20.459-10.292 28.647-17.452 31.541-22.172-15.283 9.925-35.78 19.51-59.054 26.968C54.519 141.34 6.329 140.773.597 122.889c-3.221-10.053 6.73-22.526 26.395-35.382a37.974 37.974 0 0 0-.119 1.939c-.03.821-.028 1.608.002 2.331-9.796 6.182-14.118 10.753-12.914 14.509 1.115 3.482 7.616 4.959 17.772 4.627a69.909 69.909 0 0 1-2.895-16.167h.002l-.017-.258a71.154 71.154 0 0 1-.112-3.765c.001-.696.012-1.424.04-2.168.056-1.549.149-2.994.249-4.228l.133-1.49.041-.416h-.004Zm0 0-.001.001-.036.415c-.044.45-.089.95-.133 1.49l-.146 1.647c.075-1.192.181-2.375.315-3.552l.001-.001Z"
+                style="fill:currentColor" />
+              <path
+                d="M34.442 51.095a10.127 10.127 0 0 1-4.596-8.485c0-5.592 4.54-10.132 10.132-10.132 2.837 0 5.403 1.169 7.243 3.05a71.387 71.387 0 0 0-12.779 15.567Z"
+                style="fill:currentColor" />
+              <circle cx="173.267" cy="10.132" r="10.132" style="fill:currentColor" />
+              <circle cx="218.027" cy="100.618" r="10.132" style="fill:currentColor" />
+            </svg>
+          </a>
+          <div class="nav-wrapper">
+            <button class="btn btn--menu" id="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Open mobile nav">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                stroke-width="4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+              </svg>
+            </button>
+            <ul role="menubar" class="nav-links" id="menu">
+              <li role="none">
+                <a role="menuitem" href="/" class="nav-link btn">Home</a>
+              </li>
+              <li role="none">
+                <a role="menuitem" href="https://www.imf.org/en/Blogs/Articles/2018/03/20/adapting-to-climate-change-three-success-stories"target= blank class="nav-link btn">About</a>
+              </li>
+              <li role="none">
+                <a role="menuitem" href="payment page/index.html"target= bank class="nav-link btn">Donate</a>
+              </li>
+              <li role="none">
+                <a role="menuitem" href="https://www.linkedin.com/in/amit-kumar-82464528b"target= blank class="nav-link btn btn--accent">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <img class="header__img" srcset="./assets/spaceLg.jpg 1999w, ./assets/spaceMd.jpg 1000w, ./assets/spaceSm.jpg 500w" src="./assets/space.jpg" alt="View of earth " />
+        <div class="container header-container">
+          <h1 class="h1 rise">BEYOND THE HORIZON:CLIMATE ACTION</h1>
+          <p class="h3 rise subheading">"Go green, breathe clean. Stop polluting the environment. Save our planet. Think before you trash it."</p>
+        </div>
+      </header>
+      <main>
+        <section class="stars container--sm fade-up" aria-labelledby="stars">
+          <h2 class="h2" id="stars">Adapting The Nature:</h2>
+          <p class="body">This project can be tailored to any age group or community.
+            Focus on activities that are relevant to your local context and resources.
+            </p>
+          <p class="body">Conserves resources and protects natural habitats.
+            Saves money by extending the lifespan of existing items.
+            Promotes a more mindful and responsible approach to consumption.
+            Fosters a sense of community and shared responsibility for the environment.
+            </p>
+          <p class="body">Partner with schools, community centers, or environmental organizations to expand the reach.</p>
+          </section>
+        <section class="container" aria-labelledby="cards">
+          <h2 class="sr-only" id="cards">Reasons to Travel</h2>
+          <div class="card-container">
+            <div class="card fade-up">
+              <svg xmlns="http://www.w3.org/2000/svg" class="card__image fade-up" width="192" fill="currentColor" viewBox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <path
+                  d="M138.7,175.5l-19.2,52.1a8,8,0,0,1-15,0L85.3,175.5a8.1,8.1,0,0,0-4.8-4.8L28.4,151.5a8,8,0,0,1,0-15l52.1-19.2a8.1,8.1,0,0,0,4.8-4.8l19.2-52.1a8,8,0,0,1,15,0l19.2,52.1a8.1,8.1,0,0,0,4.8,4.8l52.1,19.2a8,8,0,0,1,0,15l-52.1,19.2A8.1,8.1,0,0,0,138.7,175.5Z"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+                <line x1="176" y1="16" x2="176" y2="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></line>
+                <line x1="200" y1="40" x2="152" y2="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></line>
+                <line x1="224" y1="72" x2="224" y2="104" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></line>
+                <line x1="240" y1="88" x2="208" y2="88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></line>
+              </svg>
+              <div>
+                <h3 class="h3">Nature</h3>
+                <p class="body">Inspiring Action:
+
+                  "Every small step counts. Together, we can leave a greener footprint on this extraordinary planet."
+                  "Be the change you wish to see in the world. Start by protecting the wild places you love."
+                  "Let's not inherit a planet from our parents. Let's borrow it from our children."</p>
+              </div>
+            </div>
+            <div class="card fade-up">
+              <svg xmlns="http://www.w3.org/2000/svg" class="card__image fade-up" width="192" fill="currentColor" viewBox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <path d="M88,148a68,68,0,1,1,68,68H76a44,44,0,0,1,0-88,42.5,42.5,0,0,1,14.3,2.4" fill="none" stroke="currentColor"
+                  stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+                <path
+                  d="M47,138.9A64.1,64.1,0,0,1,9.6,94.4h0A68.3,68.3,0,0,0,24,96,64.1,64.1,0,0,0,88,32a68.3,68.3,0,0,0-1.6-14.4h0A64,64,0,0,1,136,80c0,1,0,2-.1,3"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+              </svg>
+              <div>
+                <h3 class="h3">Climate</h3>
+                <p class="body">Focusing on Solutions:
+
+                  "Climate change is complex, but the solutions are clear. Let's embrace renewable energy and build a sustainable future."
+                  "Big changes start small. Let's choose a greener lifestyle and inspire others to do the same."
+                  "Every voice matters. Let's speak up for a healthier planet and a brighter tomorrow."</p>
+              </div>
+            </div>
+            <div class="card fade-up">
+              <svg xmlns="http://www.w3.org/2000/svg" class="card__image fade-up" width="192" fill="currentcolor" viewBox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <line x1="92.8" y1="59" x2="85.1" y2="40.5" fill="none" stroke="currentcolor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="16"></line>
+                <line x1="43" y1="108.8" x2="24.5" y2="101.1" fill="none" stroke="currentcolor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="16"></line>
+                <line x1="213" y1="108.8" x2="231.5" y2="101.1" fill="none" stroke="currentcolor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="16"></line>
+                <line x1="163.2" y1="59" x2="170.9" y2="40.5" fill="none" stroke="currentcolor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="16"></line>
+                <line x1="240" y1="160" x2="16" y2="160" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></line>
+                <line x1="208" y1="200" x2="48" y2="200" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></line>
+                <path d="M70.2,160a60,60,0,1,1,115.6,0" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="16"></path>
+              </svg>
+              <div>
+                <h3 class="h3">Plant Trees</h3>
+                <p class="body">Impact and Connection:
+
+                  "Plant a tree, breathe a sigh of relief. Every leaf whispers, 'Thank you.'"
+                  "Rooted deep, reaching high, trees connect us to the earth and the sky."
+                  "Be the change you want to see. Plant a seed, watch a legacy grow."
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container--sm moons fade-up" aria-labelledby="moons">
+          <h3 class="h2" id="moons">Steps Toward Saving The Nature</h3>
+          <p class="body">Ditch single-use: Cut down on plastic bags, straws, and water bottles.  Refill reusable ones instead!
+
+            Power down: Turn off lights and electronics when not in use. Shorten showers too!</p>
+          <p class="body">Walk, bike, bus: Choose clean transportation whenever you can. Less gas, more green!
+
+            Plant a tree: Trees absorb CO2. Even a small one helps!</p>
+          <p class="body">By working together to reduce consumption and embrace reuse, this project empowers individuals to take
+             action on climate change in their daily lives.</p>
+        </section>
+            <h4 id="headerh4">SAVE NATURE FOR BETTER FUTURE!</h4>
+    <!-- hover images -->
+    <div class="hovercontainer">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.png" alt="">
+        <img src="images/3.jpg" alt="">
+        <img src="images/4.png" alt="">
+        <img src="images/5.png" alt="">
+        <img src="images/6.png" alt="">
+        <img src="images/7.jpg" alt="">
+        <img src="images/8.jpg" alt="">
+        <img src="images/9.png" alt="">
+        <img src="images/10.png" alt="">
+
+
+    </div>
+    
+	<!-- single card--> 
+	  <div class="card">
+		<div class="card-body">
+		  <h5 class="card-title">TREE PLANTATION DRIVES:</h5>
+		  <p class="card-text">A tree plantation drive is a community initiative aimed at planting trees in a specific area to improve the environment
+			 and enhance green cover. These drives involve volunteers from various backgrounds, including schools, local organizations,
+			 
+			 and government bodies, coming together to plant saplings. The objectives of tree plantation drives include combating climate change,
+			  reducing carbon footprints, preventing soil erosion, and providing habitat for wildlife. By participating in these activities,
+			   individuals contribute to a healthier planet, promote biodiversity, and ensure a greener future for the next generations.
+			    Tree plantation drives are often accompanied by educational programs to raise awareness about the importance of trees and environmental conservation.</p>
+		  <p class="card-text"><small class="text-muted">GO GREEN!PLANT TREES</small></p>
+		</div>
+		<img src="images/Peter_Wohlleben.webp" class="card-img-top" alt="...">
+	  </div>
+	
+	<!--another Card  -->
+	<h4 class="ms-4"> 
+        Drives in Villages ⤵
+    </h4> 
+    <div class="container d-flex mt-4 p-4"> 
+        <div class="card mb-3" style="max-width:50%;"> 
+            <div class="row g-0"> 
+                <div class="col-md-6"> 
+                    <img src= 
+"images/20230506_170556-villages.jpg" 
+                        class="img-fluid rounded-start" alt="..."> 
+                </div> 
+                <div class="col-md-6"> 
+                    <div class="card-body"> 
+                        <h5 class="card-title"> 
+                            Knowing about climate change
+                        </h5> 
+                        <p class="card-text"> 
+                         what they've noticed: This could include changes in rain patterns, hotter temperatures, or more extreme weather events.
+
+                         Learn about climate change: This could involve finding out how climate change might affect the village and surrounding areas.
+
+                        </p> 
+                        <p class="card-text"> 
+                            <small class="text-muted"> 
+                                Time to turn the tide. Act on climate now. 
+                            </small> 
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="card mb-3" style="max-width:50%;"> 
+            <div class="row g-0"> 
+                <div class="col-md-6"> 
+                    <img src= 
+"images/96864428_1685979580_CMO Phek.jpg" 
+                        class="img-fluid rounded-start" 
+                        alt="..."> 
+                </div> 
+                <div class="col-md-6"> 
+                    <div class="card-body"> 
+                        <h5 class="card-title">Sharing ideas on climate change</h5> 
+                        <p class="card-text"> 
+                            Share ideas for taking action: People might brainstorm ways to reduce their impact on the environment or prepare for the effects of climate change.
+
+                            These discussions can help villagers come together and take steps towards a more sustainable future.  
+                        </p> 
+                        <p class="card-text"> 
+                            <small class="text-muted"> 
+                                Small steps, big impact. Act on climate change.
+                            </small> 
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+	<!-- Card second -->
+	<h4 class="ms-4"> 
+        Drives in schools ⤵
+    </h4> 
+    <div class="container d-flex mt-4 p-4"> 
+        <div class="card mb-3" style="max-width: width 50%;;"> 
+            <div class="row g-0"> 
+                <div class="col-md-6"> 
+                    <img src= 
+"images/whatsapp-image-2023-11-02-at-3.29.29-pm.webp" 
+                        class="img-fluid rounded-start" alt="..."> 
+                </div> 
+                <div class="col-md-6"> 
+                    <div class="card-body"> 
+                        <h5 class="card-title"> 
+                            Planting Trees
+                        </h5> 
+                        <p class="card-text"> 
+                            Planting saplings: Small, young trees are carefully placed in the ground.
+                            Preparing the soil: People might dig holes, add nutrients, or remove weeds to create the best environment for the new trees.
+ 
+                        </p> 
+                        <p class="card-text"> 
+                            <small class="text-muted"> 
+								Be the change. Choose a greener future.
+                            </small> 
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="card mb-3" style="max-width:50%;"> 
+            <div class="row g-0"> 
+                <div class="col-md-6"> 
+                    <img src= 
+"images/teaching-climate-change-020923-1370785378.jpg" 
+                        class="img-fluid rounded-start" 
+                        alt="..."> 
+                </div> 
+                <div class="col-md-6"> 
+                    <div class="card-body"> 
+                        <h5 class="card-title">careing the nature</h5> 
+                        <p class="card-text"> 
+							Learning about trees: Volunteers might discuss different tree species, their benefits to the environment, and how to care for them properly.
+							Tree plantation drives are a great way to improve the environment, create green spaces, and connect with the community.
+							
+                        </p> 
+                        <p class="card-text"> 
+                            <small class="text-muted"> 
+                                Our future is green. Let's grow it together. 
+                            </small> 
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About our organization</h1> 
+			<p class="lead-para">
+                Who We Are:
+                We are a passionate team of environmentalists,
+                scientists, researchers, and communicators
+                committed to raising awareness about climate 
+                change and its impacts. Our diverse backgrounds
+                bring together a wealth of knowledge and expertise,
+                allowing us to present well-rounded perspectives on
+	            various climate-related topics. We believe in the power
+	            of knowledge and the importance of informed action in
+	            tackling climate challenges. 
+				
+				
+			</p> 
+			<p> 
+                Our Mission:
+                Our mission is simple: to educate and empower individuals,
+                communities, and organizations to take meaningful
+                action against climate change. We aim to bridge the gap
+                between scientific research and the public by presenting
+                complex information in an accessible and engaging manner.
+	            Through our efforts, we hope to foster a global community
+	            that is well-informed and proactive in the fight against climate change.
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="images/45a70e13d4bcb5ee0671501e6232643c.avif" alt="About us"+> 
+		</div> 
+	</section> 
+	
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Get In Touch</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Phone"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Send Message"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-head">EMAIL ID:</h5> 
+					<p class="contact-text">amitsah8692@gmail.com</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-head">PHONE:</h5> 
+					<p class="contact-text">+91 9798757449</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-head">INSTAGRAM:</h5> 
+					<p class="contact-text">amitsah451</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-head">ADDRESS:</h5> 
+					<p class="contact-text">Haridwar</p> 
+					<p>GKV,Uttrakhand</p> 
+					<p>Delhi to Roorke highway</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2024 All rights reserved | 
+				Take the first step to save our mother Earth. 
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="amitsah8692@gmail.com"target= blank> 
+							
+                                <i class="fa fa-envelope"></i>
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.hackerrank.com/profile/amitsah8692"target= blank> 
+								<i class='fab fa-hackerrank'></i>
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://github.com/amitkumar2027"target= blank> 
+								<i class="fab fa-github"></i>
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.linkedin.com/in/amit-kumar-82464528b" target= blank> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script>
+    <script>
+
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('is-active');
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
